@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <modules>
+        <module>tok_data_service</module>
+        <module>tok_data_serviceImpl_cache</module>
+        <module>tok_data_serviceImpl_rdb</module>
+        <module>tok_temporal_service</module>
+        <module>tok_temporal_serviceImpl_es</module>
+        <module>tok_temporal_serviceImpl_ts</module>
+        <module>tok_temproal_serviceImpl_td</module>
+    </modules>
+    <parent>
+        <artifactId>tok_common</artifactId>
+        <groupId>com.example</groupId>
+        <version>${revision}</version>
+    </parent>
+    <artifactId>tok_common_dao</artifactId>
+    <version>${revision}</version>
+    <name>tok_common_dao</name>
+    <packaging>pom</packaging>
+    <description>tok_common_dao</description>
+    <properties>
+        <java.version>${java.version}</java.version>
+    </properties>
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>
